@@ -1,0 +1,18 @@
+package learning1;
+
+public class avaliacao {
+	double n1,n2,n3;
+	
+	avaliacao( double score1,double score2,double score3) {
+		this.n1 = score1;
+		this.n2 = score2;
+		this.n3 = score3;
+	}
+	
+	public double mediaAritmetica() {
+		return (n1+n2+n3)/3;
+	}
+	public double mediaPonderada() {
+		return (n1*2+n2*3+n3*4)/9;
+	}
+}

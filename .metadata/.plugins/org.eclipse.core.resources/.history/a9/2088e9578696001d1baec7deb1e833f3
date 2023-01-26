@@ -1,0 +1,8 @@
+package learning1;
+
+public class user {
+	String b;
+	void data(){
+		System.out.println("waca waca UwU");
+	}
+}

@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package learning1;
+
+/**
+ * @author 019210631
+ *
+ */
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("oooo janaina");
+		avaliacao marquitos = new avaliacao(8,6,4);
+		System.out.println("Média Aritmetica do primeiro: " + marquitos.mediaAritmetica());
+		System.out.println("Média Aritmetica do primeiro: " + marquitos.mediaPonderada());
+		user marquitos1 = new user();
+		marquitos1.notas = new avaliacao(8,6,4);
+		marquitos1.data();
+	}
+
+}
